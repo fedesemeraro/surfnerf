@@ -1,0 +1,24 @@
+dataset_type = satdata
+expname = sat260_aug
+no_batching = False
+data.image.path = data/260/JAX_260_df1
+data.image.df = 1
+data.image.sd = 0.3
+data.depth.path = data/260/JAX_260_df1_dsm.tif
+data.depth.df = 1
+data.md.path = data/260/JAX_260_df1_md.txt
+data.train_id = [01, 04, 05, 06, 07, 08, 09, 11, 12, 13, 14, 15, 18, 22,  101, 104, 105, 106, 107, 108, 109, 111, 112, 113, 114, 115, 118, 122]
+data.test_id = [25, 26]
+
+rend.mode.alt.max = 30
+rend.mode.alt.min = -30.0
+
+rend.unzoom = True
+train.n_epoch = 10000
+
+out.iplot = 1000
+gpu = 1
+
+N_samples = 64
+N_importance = 128
+N_rand = 4096

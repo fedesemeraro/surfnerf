@@ -1,0 +1,17 @@
+name: satnerf
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pip
+  - scikit-image
+  - numpy
+  - matplotlib
+  - imageio
+  - configargparse
+  - tqdm
+  - pyvista
+  - rasterio
+  - gdal
+  - pandas
+  - scipy

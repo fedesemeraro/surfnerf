@@ -1,0 +1,29 @@
+dataset_type = satdata
+expname = sat214_aug_viewdirs_high-posenc
+no_batching = False
+data.image.path = data/214/JAX_214_df1
+data.image.df = 1
+data.image.sd = 0.3
+data.depth.path = data/214/JAX_214_df1_dsm.tif
+data.depth.df = 1
+data.md.path = data/214/JAX_214_df1_md.txt
+data.train_id = [01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14, 15, 18, 19, 20, 21, 22, 23,  101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 118, 119, 120, 121, 122, 123]
+data.test_id = [25, 26]
+
+rend.mode.alt.max = 80
+rend.mode.alt.min = -30.0
+
+rend.unzoom = True
+train.n_epoch = 10000
+
+out.iplot = 1000
+gpu = 1
+
+N_samples = 64
+N_importance = 128
+N_rand = 4096
+
+use_viewdirs = True
+
+multires = 20
+multires_views = 8

@@ -6,7 +6,7 @@ is able to generate novel views from a sparse collection of satellite images of 
 Digital Elevation Model (DEM) of the surface.
 
 <p align="center">
-  <img src="https://github.com/fsemerar/satnerf/raw/main/figs/dsm.jpg" width="80%"></img>
+  <img src="https://github.com/fsemerar/satnerf/raw/main/figs/dsm.png" width="80%"></img>
 </p>
 
 ## Dataset

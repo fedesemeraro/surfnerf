@@ -42,7 +42,8 @@ To train NeRF on an example dataset run:
 
 ## Cite
 
-If you use Sat-NeRF in your research, please use the following BibTeX entries to cite it:
+If you use Sat-NeRF in your research, please use the following BibTeX entries to cite 
+[our paper](https://arxiv.org/abs/2304.04133):
 
 ```BibTeX
 @misc{semeraro2023nerf,

@@ -1,4 +1,4 @@
-# Sat-NeRF
+# S-NeRF
 
 This project implements the Shadow Neural Radiance (S-NeRF) field from [this repository](https://github.com/esa/snerf),
 starting from a modified PyTorch [NeRF implementation](https://github.com/yenchenlin/nerf-pytorch). The model
@@ -6,7 +6,7 @@ is able to generate novel views from a sparse collection of satellite images of 
 Digital Elevation Model (DEM) of the surface.
 
 <p align="center">
-  <img src="https://github.com/fsemerar/satnerf/raw/main/figs/dsm.png" width="80%"></img>
+  <img src="https://github.com/fsemerar/surfnerf/raw/main/figs/dsm.png" width="80%"></img>
 </p>
 
 ## Dataset
@@ -22,7 +22,7 @@ modifying the inputs in the data_augmentation.py script and then running the com
 It is recommended to create a conda environment using the following command from the root project folder:
 
     conda env create
-    conda activate satnerf
+    conda activate surfnerf
 
 Then follow the instructions recommended on [this website](https://pytorch.org/get-started/locally/) in order to install
 the correct version of PyTorch (CPU or GPU enabled).
@@ -42,7 +42,7 @@ To train NeRF on an example dataset run:
 
 ## Cite
 
-If you use Sat-NeRF in your research, please use the following BibTeX entries to cite 
+If you use Surf-NeRF in your research, please use the following BibTeX entries to cite 
 [our paper](https://arxiv.org/abs/2304.04133):
 
 ```BibTeX

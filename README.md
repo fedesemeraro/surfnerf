@@ -1,4 +1,4 @@
-# S-NeRF
+# Surf-NeRF
 
 This project implements the Shadow Neural Radiance (S-NeRF) field from [this repository](https://github.com/esa/snerf),
 starting from a modified PyTorch [NeRF implementation](https://github.com/yenchenlin/nerf-pytorch). The model
